@@ -175,7 +175,7 @@ printf 'binary payload' | ./decalgo-cli generate > generated.txt
 
 Command-line flags override the local configuration. `DECALGO_MODEL`,
 `DECALGO_REVISION`, `DECALGO_RUNTIME`, and `DECALGO_PYTHON` can also override
-it. The MLX backend is implemented by `mlx_model.py` and maintains a KV cache
+it. The MLX backend is implemented by `python/mlx_model.py` and maintains a KV cache
 while candidate tokens are selected. Local defaults use arithmetic coding over
 top 256, the model's native temperature, a Llama chat-template prompt, and a
 short verified greedy suffix to land on sentence-ending punctuation.
@@ -209,7 +209,7 @@ token IDs survive a detokenize/tokenize round trip before returning text.
 
 The Go API is `NewGenerativeCodec` with a `LanguageModel` implementation. The
 included `ProcessModel` speaks a small line-delimited JSON protocol to
-`hf_model.py`, so applications can substitute another deterministic local model
+`python/hf_model.py`, so applications can substitute another deterministic local model
 runtime without changing the codec.
 
 ## Multi-party conversation chains

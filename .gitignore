@@ -1,0 +1,8 @@
+decalgo-cli
+decalgo.local.json
+generated.txt
+message.txt
+interactive.state
+__pycache__/
+*.pyc
+decalgo

@@ -11,7 +11,7 @@ import (
 )
 
 // ProcessModel connects to a persistent line-delimited JSON model process.
-// The bundled hf_model.py implements this protocol with Transformers/PyTorch.
+// The bundled python/hf_model.py implements this protocol with Transformers/PyTorch.
 type ProcessModel struct {
 	cmd         *exec.Cmd
 	in          io.WriteCloser
