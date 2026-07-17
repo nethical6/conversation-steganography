@@ -18,8 +18,10 @@ Conversation Stenography lets two people have a completely private conversation 
 
 **Your actual messages never leave your device unencrypted.** The messaging platform only ever sees innocent cover text.
 
-> [!WARNING]
-> This project is strictly for educational purposes only. It is illegal to use this tool for malicious or unauthorized activities.
+> [!CAUTION]
+> **Educational Use Only**
+> This project is provided for educational and research purposes. Engaging in any unauthorized or illegal activities is strictly prohibited. The creator assumes no liability for any misuse.
+
 
 > [!WARNING]
 > This is a proof of concept and still has multiple issues
