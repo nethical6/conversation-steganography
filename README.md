@@ -309,7 +309,7 @@ printf 'hi alex' | ./conversation-stenography chain-send \
 ## Building from source
 
 ```sh
-git clone https://github.com/yourusername/conversation-stenography.git
+git clone https://github.com/nethical6/conversation-stenography.git
 cd conversation-stenography
 go build -o conversation-stenography ./cmd/conversation-stenography
 go test ./...
