@@ -1,0 +1,25 @@
+
+{
+  "_comment": "Generate conversation-stenography.local.json automatically by running: ./conversation-stenography setup",
+  "runtime": "transformers",
+  "python": "python3",
+  "model": "openai-community/gpt2",
+  "revision": "main",
+  "prompt": "The weather today is",
+  "top_n": 8,
+  "coding": "arithmetic",
+  "temperature": 1,
+  "secure": true,
+  "conversation": "default-chat",
+  "direction": "sender-to-receiver",
+  "finish_tokens": 32,
+  "chain_system": "",
+  "strict_style": true,
+  "candidate_pool": 8,
+  "refresh_sentences": false,
+  "carrier_trials": 2,
+  "naturalness_slack": 0.35,
+  "semantic_judge": false,
+  "semantic_threshold": -6,
+  "length_bias": 0.1
+}

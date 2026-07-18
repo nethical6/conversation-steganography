@@ -262,6 +262,12 @@ For automation and scripting:
 | `CONVERSATION_STENOGRAPHY_PYTHON` | Override Python path |
 | `CONVERSATION_STENOGRAPHY_RUNTIME` | Override runtime (`mlx` or `transformers`) |
 
+Runtime configuration is machine-specific and is intentionally not committed.
+Run `conversation-stenography setup` to generate
+`conversation-stenography.local.json`, or copy
+`conversation-stenography.example.json` and adjust it for your environment.
+Never commit local model paths, interpreter paths, or credentials.
+
 Existing installations can continue using `decalgo.local.json`,
 `~/.decalgo/conversations`, and `DECALGO_*` variables while migrating. New
 files and documentation use the Conversation Stenography names.

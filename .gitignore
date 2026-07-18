@@ -6,3 +6,10 @@ __pycache__/
 *.pyc
 /decalgo
 /decalgo-cli
+
+# Machine-specific runtime configuration and setup artifacts.
+/conversation-stenography.local.json
+/decalgo.local.json
+/.conversation-stenography-venv/
+/.conversation-stenography-chain.json
+/*.state
